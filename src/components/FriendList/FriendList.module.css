@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 0;
+}
+
+ .list{
+    border: 2px solid #000000;
+    width: 75px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+}

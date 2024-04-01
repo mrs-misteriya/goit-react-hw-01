@@ -1,0 +1,29 @@
+.table{
+    border: 2px solid #2b2a2a;
+    width: 100%;
+    padding: 0;
+    border-spacing: 0;
+    border-radius: 3px;
+}
+
+.title{
+    color: #FFFFFF;
+    background-color: #383737;
+}
+
+.column{
+    color: #383737;
+    text-align: center;
+}
+
+.column:not(:last-child) {
+    border-right: 1px solid #000000;
+}
+
+.line {
+    border-bottom: 2px solid #000000;
+}
+
+.line:nth-child(even) {
+    background-color: rgb(180, 179, 179);
+}
